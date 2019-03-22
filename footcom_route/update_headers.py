@@ -1,6 +1,6 @@
-from footcom_route.accounts.login import login
-from footcom_route.db.basic_db import db_session
-from footcom_route.db.models import LoginInfo
+from accounts.login import login
+from db.basic_db import db_session
+from db.models import LoginInfo
 # from insert_accounts import insert_accounts
 
 

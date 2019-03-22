@@ -3,8 +3,8 @@ import requests
 import urllib.request
 import random
 import time
-from footcom_route.agent.user_agent import get_user_agent
-from footcom_route.proxy.proxy import get_proxy
+from agent.user_agent import get_user_agent
+from proxy.proxy import get_proxy
 MAX_RETRY = 3
 
 

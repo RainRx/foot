@@ -6,8 +6,8 @@ from datetime import datetime
 
 import requests
 
-from footcom_route.db.basic_db import Session
-from footcom_route.db.tables import route_info
+from db.basic_db import Session
+from db.tables import route_info
 
 file_path = os.path.abspath(os.path.dirname(os.getcwd()))
 

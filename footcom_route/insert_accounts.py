@@ -1,5 +1,5 @@
-from footcom_route.db.basic_db import db_session
-from footcom_route.db.tables import login_info
+from db.basic_db import db_session
+from db.tables import login_info
 
 
 def insert_accounts():

@@ -3,7 +3,7 @@ import pymysql
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from footcom_route.config.conf import get_db_args
+from config.conf import get_db_args
 
 
 def get_engine():

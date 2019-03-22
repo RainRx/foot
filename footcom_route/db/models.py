@@ -1,7 +1,7 @@
 # coding = utf-8
-from footcom_route.db.basic_db import Base
+from db.basic_db import Base
 
-from footcom_route.db.tables import route_info, login_info
+from db.tables import route_info, login_info
 
 
 

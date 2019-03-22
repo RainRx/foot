@@ -1,6 +1,6 @@
 # -*- coding=utf-8 -*-
-from footcom_route.db.tables import *
-from footcom_route.db.basic_db import metadata
+from db.tables import *
+from db.basic_db import metadata
 
 
 def create_all_table():

@@ -2,13 +2,15 @@
 import random
 import threading
 import time
+import sys
 
 import pymysql
 import requests
 
-from footcom_route.db.basic_db import get_db_args
-from footcom_route.db.models import FootRoute
-from footcom_route.download.download import Download
+
+from .db.basic_db import get_db_args
+from .db.models import FootRoute
+from .download.download import Download
 
 args = get_db_args()
 

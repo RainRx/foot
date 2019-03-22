@@ -1,6 +1,6 @@
 # -*-coding:utf-8 -*-
 from sqlalchemy import Table, Column, INTEGER, String, Text, Float
-from footcom_route.db.basic_db import metadata
+from db.basic_db import metadata
 
 # login table
 login_info = Table("account", metadata,
