@@ -3,9 +3,9 @@
 cookie_expire_time: 23
 
 db:
-    host: 127.0.0.1
+    host: http://118.24.92.182
     port: 3306
-    user: root
-    password: drx787602
+    user: Rain
+    password: XxmJArMPAtnBnmsy
     db_name: foot_route
     db_type: mysql
