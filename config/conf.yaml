@@ -1,0 +1,11 @@
+# coding:utf-8
+# the expire time(hours) of each cookies
+cookie_expire_time: 23
+
+db:
+    host: 127.0.0.1
+    port: 3306
+    user: root
+    password: drx787602
+    db_name: foot_route
+    db_type: mysql
